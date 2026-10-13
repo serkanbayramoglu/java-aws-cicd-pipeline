@@ -109,7 +109,7 @@ The ECS service then deploys the updated container image.
 
 The Jenkins Stage View below shows the CI/CD pipeline executing the application build, testing, Docker image creation, ECR publishing, and deployment stages.
 
-![Jenkins CI/CD Pipeline](docs/images/jenkins-pipeline.png)
+![Jenkins CI/CD Pipeline](jenkins-pipeline.png)
 
 ## Application
 
@@ -130,7 +130,7 @@ The application itself was intentionally kept simple so that the project could f
 
 The following screenshot shows the Spring Boot application after deployment through the CI/CD pipeline.
 
-![Deployed Application](docs/images/deployed-application.png)
+![Deployed Application](deployed-application.png)
 
 ## Repository Structure
 
