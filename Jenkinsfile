@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        	AWS_ACCOUNT_ID="294646511689"
+        	AWS_ACCOUNT_ID="YOUR_AWS_ACCOUNT_ID"
         	AWS_DEFAULT_REGION="us-west-2" 
 		CLUSTER_NAME="default"
 		SERVICE_NAME="spring-boot-container-service"
