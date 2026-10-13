@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         	AWS_ACCOUNT_ID="YOUR_AWS_ACCOUNT_ID"
-        	AWS_DEFAULT_REGION="us-west-2" 
+        	AWS_DEFAULT_REGION="YOUR_AWS_REGION"
 		CLUSTER_NAME="default"
 		SERVICE_NAME="spring-boot-container-service"
 		TASK_DEFINITION_NAME="first-run-task-definition"
